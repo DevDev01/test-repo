@@ -1,0 +1,9 @@
+on:
+  issues:
+    types: [opened, edited, milestoned]
+jobs:
+  read-file:
+    runs-on: shelf-hosted
+    steps:
+      - name: reading_file
+        run: cat index.txt
