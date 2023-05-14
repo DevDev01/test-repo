@@ -6,4 +6,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: reading_file
-        run: cat index.txt
+        run: ls
