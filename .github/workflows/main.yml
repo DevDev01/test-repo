@@ -5,6 +5,6 @@ jobs:
   read-file:
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v2
       - name: reading_file
+      - uses: actions/checkout@v2
       - run: ls
