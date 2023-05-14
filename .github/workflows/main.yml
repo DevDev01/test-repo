@@ -3,7 +3,7 @@ on:
     types: [opened, edited, milestoned]
 jobs:
   read-file:
-    runs-on: shelf-hosted
+    runs-on: self-hosted
     steps:
       - name: reading_file
         run: cat index.txt
